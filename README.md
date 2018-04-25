@@ -5,7 +5,7 @@
 ## Description
 Restful API for Node.js and Mysql, based [Brian Alois](https://codeburst.io/build-a-rest-api-for-node-mysql-2018-jwt-6957bcfc7ac9) example
 
-###Api content:
+### Api content:
 
 - [Express](http://expressjs.com/es/)
 - [Sequelize](http://docs.sequelizejs.com/)
@@ -20,7 +20,7 @@ Restful API for Node.js and Mysql, based [Brian Alois](https://codeburst.io/buil
 git clone {repo_name}
 ```
 
-###Create database
+### Create database
 
 All values as they are in the .env file
 
