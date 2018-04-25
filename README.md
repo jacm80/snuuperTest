@@ -48,7 +48,7 @@ yarn restoredb
 ```
 
 
-###Path folders:
+### Path folders:
 
 - bin: files to up the server
 - config: config.js to setting database, and jwt 
