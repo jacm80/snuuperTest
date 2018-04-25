@@ -20,20 +20,11 @@ Restful API for Node.js and Mysql, based [Brian Alois](https://codeburst.io/buil
 git clone {repo_name}
 ```
 
-### Create database
-
-All values as they are in the .env file
-
-- Database: snuuper
-- User: snuuper (with all grant)
-- Password: see file .env
-
 #### Install Node Modules
 ```
 npm install
 ```
 or
-
 ```
 yarn
 ```
@@ -41,6 +32,22 @@ yarn
 #### Create .env File
 You will find a example.env file in the home directory. Paste the contents of that into a file named .env in the same directory. 
 Fill in the variables to fit your application
+
+### Create database Blank
+
+All values as they are in the .env file
+
+creates table if they do not already exist
+
+- Database name: snuuper
+- User name: snuuper (with all grant)
+- Password: see file .env
+
+app.js call:
+
+```
+models.sequelize.sync();
+```
 
 ### Upload initial data
 ```
