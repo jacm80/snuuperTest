@@ -7024,7 +7024,7 @@ const restoreDatabase = () => new Promise((resolve, reject) => {
 
 Promise.all([
     restoreDatabase, 
-    () => User.bulkCreate(dataUsers)
+    User.bulkCreate(dataUsers)
 ]).then(() => {
     console.log('Restore with success!!!');
     process.exit(0);

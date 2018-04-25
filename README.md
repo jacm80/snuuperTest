@@ -65,7 +65,7 @@ yarn restoredb
 yarn restoredb
 ```
 - helpers:  utilities files for the application
-- middleware: to manipulate flow routes
+- middleware: to manipulate the flow of the routes
 - migrations: sequelize migrations files
 - models: objects relations mapping, sequelize schemas
 - public: swagger documentation
